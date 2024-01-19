@@ -22,3 +22,42 @@
     padding: 0 25px;
     width: 250px;
 }
+
+.faixa {
+    border: 1px solid #000;
+    height: 100px;
+    margin: 40px auto;
+    width: 400px;
+}
+
+.faixa h1 {
+    background-color: #990000;
+    color: #fff;
+    font-size: 1.2em;
+    left: -10px;
+    padding: 5px 0;
+    position: relative;
+    text-align: center;
+    width: 420px;
+    margin-top: 13px;
+}
+
+.faixa h1::before {
+    border-color: transparent #7C0000 #7c0000 transparent;
+    border-style: solid;
+    border-width: 5px;
+    content: "";
+    left: 0;
+    position: absolute;
+    top: -10px;
+}
+
+.faixa h1::after {
+    border-color: transparent transparent #7C0000 #7c0000;
+    border-style: solid;
+    border-width: 5px;
+    content: "";
+    position: absolute;
+    right: 1px;
+    top: -10px;
+}
