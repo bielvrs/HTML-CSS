@@ -1,3 +1,4 @@
+
 body, ul, li, p {
     margin: 0px;
     padding: 0px;
@@ -20,7 +21,10 @@ header{
 }
  
 .menu{
+    background-color: #d9a300;
     display: flex;
+    margin: 0;
+    padding: 15px 0 15px 0px;
 }
  
     .menu li{
